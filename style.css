@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+  }
+  
+  .nav-link {
+    font-weight: 600;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #hero h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    margin-bottom: 50px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  #about .skills {
+    margin-top: 50px;
+  }
+  
+  #about .skill {
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section Styles */
+  #projects {
+    padding: 100px 0;
+  }
+  
+  #projects h2 {
+    margin-bottom: 50px;
+  }
+  
+  #projects .card {
+    margin-bottom: 30px;
+  }
+  
+  #projects .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 100px 0;
+  }
+  
+  #contact h2 {
+    margin-bottom: 50px;
+  }
+  
+  #contact label {
+    font-weight: 600;
+  }
+  
+  #contact button[type="submit"] {
+    margin-top: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 100px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    #hero h1 {
+      font-size: 40px;
+    }
+  
+    #hero h2 {
+      font-size: 24px;
+    }
+  
+    #about .skills {
+      margin-top: 30px;
+    }
+  
+    #projects .card {
+      margin-bottom: 20px;
+    }
+  }
+  
